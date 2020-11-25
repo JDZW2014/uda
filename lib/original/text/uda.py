@@ -22,9 +22,9 @@ import collections
 import re
 import tensorflow as tf
 
-from bert import modeling
-from bert import optimization
-from utils import tpu_utils
+from original.text.bert import modeling
+from original.text.bert import optimization
+from original.text.utils import tpu_utils
 
 flags = tf.flags
 FLAGS = flags.FLAGS

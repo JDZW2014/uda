@@ -22,10 +22,10 @@ import json
 import os
 import tensorflow as tf
 
-import uda
-from bert import modeling
-from utils import proc_data_utils
-from utils import raw_data_utils
+from original.text import uda
+from original.text.bert import modeling
+from original.text.utils import proc_data_utils
+from original.text.utils import raw_data_utils
 
 
 

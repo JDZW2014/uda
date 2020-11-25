@@ -22,7 +22,7 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from randaugment import custom_ops as ops
+from original.image.randaugment import custom_ops as ops
 
 
 def _shake_shake_skip_connection(x, output_filters, stride):

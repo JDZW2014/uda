@@ -26,8 +26,6 @@ from __future__ import print_function
 
 import numpy as np
 import tensorflow as tf
-from absl import flags
-
 
 arg_scope = tf.contrib.framework.arg_scope
 FLAGS = tf.flags.FLAGS

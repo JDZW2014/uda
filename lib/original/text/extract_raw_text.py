@@ -20,12 +20,9 @@ from __future__ import division
 from __future__ import google_type_annotations
 from __future__ import print_function
 import os
-from absl import app
-from absl import flags
-
 import tensorflow as tf
 
-from utils import raw_data_utils
+from original.text.utils import raw_data_utils
 
 from absl import app
 from absl import flags

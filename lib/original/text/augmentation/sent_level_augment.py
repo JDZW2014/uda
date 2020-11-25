@@ -18,21 +18,16 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
 import math
-
 import random
 from absl import flags
-
 import numpy as np
 import tensorflow as tf
-
-from augmentation import word_level_augment
-from utils import raw_data_utils
+from original.text.augmentation import word_level_augment
+from original.text.utils import raw_data_utils
 
 
 FLAGS = flags.FLAGS
-
 
 def replace_with_length_check(
     ori_text, new_text,

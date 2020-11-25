@@ -20,23 +20,17 @@ from __future__ import division
 from __future__ import print_function
 
 from six.moves import cPickle as pickle
-from six.moves import xrange  # pylint: disable=redefined-builtin
-
+from six.moves import xrange
 import collections
 import os
 import sys
 import tarfile
-
 import numpy as np
-
 from absl import flags
-import absl.logging as _logging  # pylint: disable=unused-import
-
 import scipy.io
 import tensorflow as tf
-
-from randaugment import policies as found_policies
-from randaugment import augmentation_transforms
+from original.image.randaugment import policies as found_policies
+from original.image.randaugment import augmentation_transforms
 
 FLAGS = flags.FLAGS
 

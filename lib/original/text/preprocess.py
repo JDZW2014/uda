@@ -28,10 +28,10 @@ import numpy as np
 import tensorflow as tf
 
 # from augmentation import aug_policy
-from augmentation import sent_level_augment
-from augmentation import word_level_augment
-from utils import raw_data_utils
-from utils import tokenization
+from original.text.augmentation import sent_level_augment
+from original.text.augmentation import word_level_augment
+from original.text.utils import raw_data_utils
+from original.text.utils import tokenization
 
 
 FLAGS = flags.FLAGS

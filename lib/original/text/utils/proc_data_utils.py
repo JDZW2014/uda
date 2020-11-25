@@ -20,13 +20,8 @@ from __future__ import division
 from __future__ import print_function
 
 import collections
-import copy
-import json
 import os
-import string
-
 from absl import flags
-
 import numpy as np
 import tensorflow as tf
 

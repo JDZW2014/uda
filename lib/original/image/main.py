@@ -18,27 +18,19 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
-import contextlib
 import os
-import time
 import json
 import functools
-
 import numpy as np
-
 from absl import flags
-import absl.logging as _logging  # pylint: disable=unused-import
-
 import tensorflow as tf
-
-from randaugment import custom_ops as ops
+from original.image.randaugment import custom_ops as ops
 import data
 import utils
 
-from randaugment.wrn import build_wrn_model
-from randaugment.shake_drop import build_shake_drop_model
-from randaugment.shake_shake import build_shake_shake_model
+from original.image.randaugment.wrn import build_wrn_model
+from original.image.randaugment.shake_drop import build_shake_drop_model
+from original.image.randaugment.shake_shake import build_shake_shake_model
 
 
 # TPU related

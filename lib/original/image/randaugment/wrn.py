@@ -18,9 +18,7 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from randaugment import custom_ops as ops
-
-import numpy as np
+from original.image.randaugment import custom_ops as ops
 import tensorflow as tf
 
 
